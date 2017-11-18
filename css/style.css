@@ -1,0 +1,336 @@
+
+        body{
+            margin: 0;
+            padding: 0;
+		}
+
+
+
+/* HTML & FONT */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+/* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;   */ 
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+/*html {
+    background: pink;
+}*/
+
+/* END: HTML & FONT */
+
+
+
+/* BEGIN: NAV */
+
+.brand-link {
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 33.3%;
+}
+
+nav a {
+    color: #efeee6;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #efff7a; 
+    transition: 1.55s;
+}
+
+/* END: NAV */
+
+
+/* BEGIN: BANNER */
+
+.banner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/girlphonetaxi.jpg);
+    background-size: cover;
+/*
+    background-position: center; */
+}
+
+.banner h1 {
+    background: rgba(255, 255, 255, 0.5)
+}
+
+/* END: BANNER */
+
+
+
+/* BEGIN: Layout For Full-Page Images */
+        .HOMEPAGE{
+            height: 100%;
+            width: 100%;
+            background-image: url(/img/veggies_smaller.png);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;  
+        }
+        #CALL-US{
+        /*  height: 100%;
+            width: 100%; 
+            font-size: 50px;
+            font-weight: 300;
+            font-family: "Roboto-Slab", serif;
+            color: darkgrey;
+            display: flex;  */
+        }
+        .FOUR-HANDS{
+            height: 100%;
+            width: 100%;
+            background-image: url(/img/pexels-photo-461049-smaller.jpeg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #WHAT-WE-DO{
+            height: 130%;
+            width: 100%; 
+            margin: 0px 20px 0px 30px;
+            font-size: 50px;
+            font-weight: 300;
+            font-family: "Roboto-Slab", serif;
+            color: darkgrey;
+            display: center;
+        }
+        .EARTH-HANDS{
+            height: 100%;
+            width: 100%;
+            background-image: url(/img/hands_earth_smaller.png);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #YOUR-IMPACT{
+            height: 100%;
+            width: 100%; 
+            margin: 0px;
+            font-size: 50px;
+            font-weight: 300;
+            font-family: "Roboto-Slab", serif;
+            color: darkgrey;
+            display: center;
+        }
+        .FERN{
+            height: 100%;
+            width: 100%;
+            background-image: url(/img/pexels-photo-612892-smaller.jpeg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #DONATE{
+            height: 100%;
+            width: 100%; 
+            /* margin: 0px 20px 0px 20px;*/
+            font-size: 50px;
+            font-weight: 300;
+            font-family: "Roboto-Slab", serif;
+            color: darkgrey;
+            display: center;
+        }
+/* END: Layout For Full-Page Images */
+
+
+
+/* BEGIN: Nav CSS */
+        ul  {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 900px;
+            font-size: 16px;
+            }
+
+        li a {
+                display: block;
+                color: #000;
+                padding: 10px 30px;
+                text-decoration: none;
+            }
+
+/* Change the link color on hover */
+
+        li a:hover {
+                background-color: #555;
+                color: white;
+            }
+/* END: Nav CSS */
+
+
+
+/* BEGIN: Header Info */
+
+       /* h1  {
+            font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }  */ 
+
+        h2{
+            font-family: "Roboto-Slab", serif;
+            font-size: 60px;
+            color: darkgrey;
+            margin: 50px 0px 0px;
+            text-align: center;
+            padding: 35px;
+            display: center;
+            vertical-align: middle;
+        }
+
+/* END: Header Info */
+
+
+
+/* BEGIN: flexbox for textpage titles */
+
+.h2-container{
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+/* END: flexbox for textpage titles */
+
+
+
+/* BEGIN: Full-Page Text Info */
+
+        .text_box {
+            height: 100%;
+            width: 100%;
+            font-size: 50px;
+            font-weight: 300;
+            font-family: "Roboto-Slab", serif;
+            color: darkgrey;
+            display: flex;
+            justify-content: center;
+        }
+
+/* END: Full-Page Text Info */
+
+
+
+/* BEGIN: Logo Info */
+        .logo {
+            float: left;
+            position: absolute;
+            display: inline;
+            transition: .05s ease;
+            top: 6%;
+            left: 5%;
+        }
+        /*.banner .logo {
+            display: block;
+            height: 200px;
+            width: auto;
+        }
+        */
+/* END: Logo Info */
+
+
+
+/* BEGIN: Mission Statement Pictogram Info */
+        
+        /*homepage upper right pictogram*/
+
+        .mission  {
+            float: right;
+            position: absolute;
+            transition: .05s ease;
+            top: 2%;
+            right: 5%;
+            display: inline;
+            height: 200;
+            width: auto
+        }
+/* END: Mission Statement Pictogram Info */
+
+
+
+/* BEGIN: Scroll Button Bottom Page Info */
+
+        /*bottom of ea. page scroll button*/
+
+  /*      .scroll {
+            width: 240px;
+            height: 120px;
+            padding-top: 0px;
+            display: block;
+            margin: 0px auto;
+            overflow: hidden;
+          }                     */
+
+/* END: Scroll Button Bottom Page Info */
+
+
+
+/* BEGIN: flexbox for phone number container */
+
+.scroll-container{
+  display: flex;
+  justify-content: center;
+
+}
+.mt{
+    margin-top: 80%;
+}
+/* END: flexbox for phone number container */
+
+
+
+/* BEGIN: Row & Column Info */
+        .row {
+            display: flex;
+        }
+
+        .col {
+            width: 100%;
+            padding: 16px;
+        }
+
+  /*      .col_form {
+            width: 100%;
+            padding: 200px;
+            text-align: center;
+            background: url("/img/...jpeg");  */
+        }
+
+        label {
+            line-height: 250%;
+            padding: 0px;
+        }
+/* END: Row & Column Info */
+
+
+
+/* BEGIN: center text */
+.center-text{
+    text-align: center;
+}
+/* END: center text */
+
